@@ -13,9 +13,15 @@
 
 ## Verify Your Development Environment
 
-- Ensure Node JS and NPM are installed
+- Ensure Node JS and NPM are installed:
 
 	```
 	node --version
 	npm --version
+	```
+
+- Check your `create-react-app` is installed:
+
+	```
+	create-react-app --version
 	```
