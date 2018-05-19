@@ -60,3 +60,37 @@
 	  document.getElementById('root')
 	);
 	```
+
+6. HTML attributes in JSX
+
+	```javascript
+	const element = (
+	  <h1 className="salutation">
+	    Hello, {formatName(user)}!
+	  </h1>
+	);
+	```
+
+	> **Warning:**
+	>
+	> Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names.
+	>
+	> For example, `class` becomes `className` in JSX, and `tabindex` becomes `tabIndex`.
+	
+7. React elements are immutable. So we need to call render everytime something changes.
+
+	```javascript
+	function tick() {
+	  const element = (
+	    <div>
+	      <h1>Hello, world!</h1>
+	      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+	    </div>
+	  );
+	  ReactDOM.render(element, document.getElementById('root'));
+	}
+	
+	setInterval(tick, 1000);
+	```
+	
+	But do notice that the browser only redraw the bits that has changed (open the inspector in the browser to see the change).
