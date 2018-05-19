@@ -34,3 +34,20 @@
 3. Open the file in your browser.
 
 	![Screenshot](./screenshot.png)
+
+## Note on this method
+
+Note: the method used in this exercise a great way to try React but it's not suitable for production.
+It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+To set up a production-ready React build environment, follow these instructions:
+* https://reactjs.org/docs/add-react-to-a-new-app.html
+* https://reactjs.org/docs/add-react-to-an-existing-app.html
+
+You can also use React without JSX, in which case you can remove Babel:
+* https://reactjs.org/docs/react-without-jsx.html
+* https://reactjs.org/docs/cdn-links.html
+
+## Further reading
+
+- The official hello world exercise: [https://reactjs.org/docs/hello-world.html](https://reactjs.org/docs/hello-world.html)
