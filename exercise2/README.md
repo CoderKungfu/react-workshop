@@ -94,3 +94,9 @@
 	```
 	
 	But do notice that the browser only redraw the bits that has changed (open the inspector in the browser to see the change).
+
+## Further Readings
+
+- https://reactjs.org/docs/introducing-jsx.html
+- https://reactjs.org/docs/rendering-elements.html
+- https://reactjs.org/docs/components-and-props.html
