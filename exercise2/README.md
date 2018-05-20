@@ -1,4 +1,4 @@
-# Exercise 2: Introduction to JSX
+# Exercise 2: JavaScript and JSX
 
 ## Lesson 1
 
@@ -46,13 +46,13 @@
 	```javascript
 	const name = 'Michael Cheng';
 	const element = <h1>Hello, {name}</h1>;
-	
+
 	ReactDOM.render(
 	  element,
 	  document.getElementById('root')
 	);
 	```
-	
+
 2. Let's use a user object
 
 	```javascript
@@ -64,13 +64,13 @@
 	function formatName(user) {
 	  return user.firstName + ' ' + user.lastName;
 	}
-	
+
 	const element = (
 	  <h1>
 	    Hello, {formatName(user)}!
 	  </h1>
 	);
-	
+
 	ReactDOM.render(
 	  element,
 	  document.getElementById('root')
@@ -89,7 +89,7 @@
 
 ### Exercises
 
-1. Update the `<script>` block with the following: 
+1. Update the `<script>` block with the following:
 
 	```javascript
 	const element = (
@@ -127,7 +127,7 @@
 ### Exercises
 
 1. React elements are immutable. So we need to call render everytime something changes.
-2. Update the `<script>` block with the following: 
+2. Update the `<script>` block with the following:
 
 	```javascript
 	function tick() {
@@ -139,10 +139,10 @@
 	  );
 	  ReactDOM.render(element, document.getElementById('root'));
 	}
-	
+
 	setInterval(tick, 1000);
 	```
-	
+
 3. But do notice that the browser only redraw the bits that has changed (open the inspector in the browser to see the change).
 
 ## Further Readings

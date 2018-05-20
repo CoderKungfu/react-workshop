@@ -1,4 +1,4 @@
-# Exercise 1 - Hello, World!
+# Exercise 1 - Running React in your browser & Hello World! exercise
 
 ## Objectives
 
