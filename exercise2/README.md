@@ -1,10 +1,16 @@
-# Exercise 2: JSX, props and states
+# Exercise 2: Introduction to JSX
 
-## Objectives
+## Lesson 1
 
-- Learn about JSX, Props and States
+### Scenario
 
-## Steps
+- Extract the HTML into a `const`.
+
+### Objectives
+
+- Learn about use of JS expressions.
+
+### Exercises
 
 1. Move the hello world into a separate `const`
 
@@ -25,7 +31,17 @@
 
 3. Refresh the browser page. The text `Hello, world!` should still render.
 
-4. Let's use your name:
+## Lesson 2
+
+### Scenario
+
+- Extract a part of the string into a JSX expression.
+
+### Objectives
+
+- Learn about string interpolation in JSX.
+
+1. Let's use your name:
 
 	```javascript
 	const name = 'Michael Cheng';
@@ -37,7 +53,7 @@
 	);
 	```
 	
-5. Let's use a user object
+2. Let's use a user object
 
 	```javascript
 	const user = {
@@ -61,7 +77,19 @@
 	);
 	```
 
-6. HTML attributes in JSX
+## Lesson 3
+
+### Scenario
+
+- Add some HTML attributes
+
+### Objectives
+
+- Learn how to apply HTML attributes in JSX
+
+### Exercises
+
+1. Update the `<script>` block with the following: 
 
 	```javascript
 	const element = (
@@ -71,13 +99,35 @@
 	);
 	```
 
+2. Apply a style to it
+
+	```css
+	.salutation {
+		font-weight: 2em;
+		color: red;
+	}
+	```
+
 	> **Warning:**
 	>
 	> Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names.
 	>
 	> For example, `class` becomes `className` in JSX, and `tabindex` becomes `tabIndex`.
-	
-7. React elements are immutable. So we need to call render everytime something changes.
+
+## Lesson 4
+
+### Scenario
+
+- Make a ticking clock.
+
+### Objectives
+
+- Learn about how React renders page elements.
+
+### Exercises
+
+1. React elements are immutable. So we need to call render everytime something changes.
+2. Update the `<script>` block with the following: 
 
 	```javascript
 	function tick() {
@@ -93,7 +143,7 @@
 	setInterval(tick, 1000);
 	```
 	
-	But do notice that the browser only redraw the bits that has changed (open the inspector in the browser to see the change).
+3. But do notice that the browser only redraw the bits that has changed (open the inspector in the browser to see the change).
 
 ## Further Readings
 
