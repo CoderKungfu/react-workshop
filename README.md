@@ -1,5 +1,11 @@
 # React JS Workshop
 
+## Outline
+
+1. Running React in your browser & Hello World! exercise
+2. JavaScript and JSX
+3. Build a React web app using `create-react-app`
+
 ## Pre-Requisite
 
 1. Familiarize yourself with basic HTML and JavaScript - you can read this online JS Tutorial ([https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)).
