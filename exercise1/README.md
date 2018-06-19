@@ -7,7 +7,7 @@
 
 ## Steps
 
-1. Create a new file in your text editor: `index.html`
+1. Create a new file in in this folder with the file name `index.html`. You can use VSCode to do so.
 2. Copy and paste this content into `index.html`:
 
 	```html
@@ -34,7 +34,13 @@
 	  </body>
 	</html>
 	```
-3. Open the file in your browser.
+3. Start `http-server`
+
+	```
+	http-server
+	```
+
+4. Open the website in your browser: [http://localhost:8080](http://localhost:8080).
 
 	![Screenshot](./screenshot.png)
 
@@ -44,12 +50,14 @@ Note: the method used in this exercise a great way to try React but it's not sui
 It slowly compiles JSX with Babel in the browser and uses a large development build of React.
 
 To set up a production-ready React build environment, follow these instructions:
-* https://reactjs.org/docs/add-react-to-a-new-app.html
-* https://reactjs.org/docs/add-react-to-an-existing-app.html
+
+* [https://reactjs.org/docs/add-react-to-a-new-app.html](https://reactjs.org/docs/add-react-to-a-new-app.html)
+* [https://reactjs.org/docs/add-react-to-an-existing-app.html](https://reactjs.org/docs/add-react-to-an-existing-app.html)
 
 You can also use React without JSX, in which case you can remove Babel:
-* https://reactjs.org/docs/react-without-jsx.html
-* https://reactjs.org/docs/cdn-links.html
+
+* [https://reactjs.org/docs/react-without-jsx.html](https://reactjs.org/docs/react-without-jsx.html)
+* [https://reactjs.org/docs/cdn-links.html](https://reactjs.org/docs/cdn-links.html)
 
 ## Further reading
 
