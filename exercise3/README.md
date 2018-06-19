@@ -35,12 +35,39 @@
 
 ### Scenario
 
-- Create a new component with CRA
+- Create a new React component
 
 ### Objectives
 
-- Learn about how to start developing new components with CRA
+- Learn about how to create a functional React component
+- Use `props` and how to set default values for `props`.
 
 ### Exercises
 
-1. Create a new file 
+1. Create a new file in the `src` folder with the file name `Welcome.js`
+
+2. Copy and paste this into `Welcome.js`
+
+	```javascript
+	import React from 'react'
+
+	const Welcome = (props) => {
+		return <h1>Hello, {props.name}!</h1>
+	}
+
+	Welcome.defaultProps = {
+		name: 'Michael'
+	}
+
+	export default Welcome;
+	```
+
+3. Edit `App.js` and remove the `<p>` tag. Replace it with the following:
+
+	```javascript
+	<Welcome name='Sarah' />
+	<Welcome name='William' />
+	<Welcome />
+	```
+
+4. The web page should reload automatically. Check the web browser for the updated view.
