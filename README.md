@@ -10,7 +10,7 @@
 
 1. Familiarize yourself with basic HTML and JavaScript - you can read this online JS Tutorial ([https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)).
 2. Download and install a good text editor. We recommend Visual Studio Code (VSCode) ([https://code.visualstudio.com](https://code.visualstudio.com)).
-3. Install NodeJS in your computer ([https://nodejs.org/en/](https://nodejs.org/en/)).
+3. Install NodeJS in your computer ([https://nodejs.org/en/](https://nodejs.org/en/)). We recommend getting the latest version (v10.4.x).
 4. Install `http-server`
 
 	```
@@ -37,3 +37,9 @@
 	```
 	create-react-app --version
 	```
+	
+## Web Browser
+
+We recommend using the Google Chrome browser. You should also install this extension:
+
+- React Developer Tools ([https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en))
