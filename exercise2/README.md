@@ -12,21 +12,21 @@
 
 ### Exercises
 
-1. Move the hello world into a separate `const`
+1. Move the `hello world` text into a separate `const`
 
 	```javascript
-	const element = <h1>Hello, world!</h1>;
+	const element = <h1>Hello, world!</h1>
 	```
 
 2. And render that piece in the code:
 
 	```javascript
-	const element = <h1>Hello, world!</h1>;
+	const element = <h1>Hello, world!</h1>
 
 	ReactDOM.render(
 	  element,
 	  document.getElementById('root')
-	);
+	)
 	```
 
 3. Refresh the browser page. The text `Hello, world!` should still render.
@@ -44,37 +44,13 @@
 1. Let's use your name:
 
 	```javascript
-	const name = 'Michael Cheng';
-	const element = <h1>Hello, {name}</h1>;
+	const name = 'Michael Cheng'
+	const element = <h1>Hello, {name}</h1>
 
 	ReactDOM.render(
 	  element,
 	  document.getElementById('root')
-	);
-	```
-
-2. Let's use a user object
-
-	```javascript
-	const user = {
-	  firstName: 'Michael',
-	  lastName: 'Cheng'
-	};
-
-	function formatName(user) {
-	  return user.firstName + ' ' + user.lastName;
-	}
-
-	const element = (
-	  <h1>
-	    Hello, {formatName(user)}!
-	  </h1>
-	);
-
-	ReactDOM.render(
-	  element,
-	  document.getElementById('root')
-	);
+	)
 	```
 
 ## Lesson 3
@@ -89,14 +65,14 @@
 
 ### Exercises
 
-1. Update the `<script>` block with the following:
+1. Update the `<h1>` tag with a CSS class name:
 
 	```javascript
 	const element = (
 	  <h1 className="salutation">
-	    Hello, {formatName(user)}!
+	    Hello, {name}!
 	  </h1>
-	);
+	)
 	```
 
 2. Apply a style to it
