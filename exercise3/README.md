@@ -71,3 +71,5 @@
 	```
 
 4. The web page should reload automatically. Check the web browser for the updated view.
+
+![Screenshot](./screenshot1.png)
